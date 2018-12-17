@@ -132,7 +132,7 @@ def naive_bayes_text(train_data, test_data):
 	each document with a class based on the training data. Returns  a list of predicted 
 	classes corresponding to each document in the test data.
 	'''
-	parsed_obj = parse_training_data(training_data)
+	parsed_obj = parse_training_data(train_data)
 	return predict(parsed_obj, test_data)
 
 if __name__ == '__main__':
